@@ -1,0 +1,12 @@
+.icon-link-container {
+    border: 0.5em;
+    height: 2.5em;
+    width: 2.5em;
+    margin: 1.0em;
+}
+
+.icon-link-container img {
+    filter: invert(); /* none for light mode*/
+    height: 2.5em;
+    width: 2.5em;
+}
