@@ -12,10 +12,15 @@ function MainPageContent() {
     return(
         <>
 
-            <div className="main-paige-content">
+            <div className="main-page-content">
                 
+                <p> Not much here, but feel free to look around!</p>
+
+
+            
             </div>
-            <div className="main-paige-icons">
+            <div className="main-page-icons">
+                
                 <IconLink {...infoLink1}/>
                 <IconLink {...infoLink2}/>
             </div>

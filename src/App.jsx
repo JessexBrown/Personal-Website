@@ -1,15 +1,32 @@
-import { useState } from 'react'
-import MainPageContent from './components/MainPageContent'
+import { useState } from 'react' // For light and dark mode in the future
 import './App.css'
-import MainPageNavbar from './components/MainPageNavbar'
+import MainPage from './components/pages/MainPage'
+import PDFViewer from './components/pages/PDFViewer'
+
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+  Route,
+} from "react-router-dom";
+
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <>
+     <Route path="/" element={<MainPage />}/>
+      <Route path="/resume" element={<PDFViewer />}/>
+    </>
+   
+  )
+);
+
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
-      <MainPageNavbar/>
-      <MainPageContent/>
+      <RouterProvider router={router} />
     </>
   )
 }
