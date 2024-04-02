@@ -3,8 +3,8 @@ import "../components-css/MainPageContent.css"
 
 
 function MainPageContent() {
-    const infoLink1 = {aLink:"https://github.com/JessexBrown",imgSrc:"/src/assets/github.svg",imgAlt:"github logo"}
-    const infoLink2 = {aLink:"https://www.linkedin.com/in/jessexbrown/",imgSrc:"/src/assets/linkedin.svg",imgAlt:"linkedin logo"}
+    const infoLink1 = {aLink:"https://github.com/JessexBrown",imgSrc:"/github.svg",imgAlt:"github logo"}
+    const infoLink2 = {aLink:"https://www.linkedin.com/in/jessexbrown/",imgSrc:"/linkedin.svg",imgAlt:"linkedin logo"}
 
 
 
